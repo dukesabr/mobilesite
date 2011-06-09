@@ -1,0 +1,21 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.prime.com.tr/ui">
+
+	<h:body>
+		<center>
+			<p:panel header="Login" style="width: 350;">
+			<h:form>
+				<h:panelGrid columns="2" cellpadding="2">
+					<h:outputLabel for="" value="Usuário"/>
+					<h:inputText value="" label="Usuário"></h:inputText>
+					<h:outputLabel for="" value="Senha"/>
+					<h:inputSecret value=""></h:inputSecret>
+					<h:commandButton type="submit" value="Login" action="#{userManagedBean.login}"></h:commandButton>
+				</h:panelGrid>
+			</h:form>
+			</p:panel>
+		</center>
+	</h:body>
+</html>
